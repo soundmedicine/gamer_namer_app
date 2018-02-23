@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "production": "gamer-namer",
+    "default": "gamer-namer"
+  }
+}
