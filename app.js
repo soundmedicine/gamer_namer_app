@@ -11,17 +11,12 @@ form.addEventListener('submit', (event) => {
     firstLetter = input.value[0]
     results.innerHTML = ''
     userName = input.value
-    getInput(firstLetter)
     let lowLetter = firstLetter.toLowerCase()
     getNames(lowLetter)
 })
 
 function capitalize(string) {
     return string.charAt(0).toUpperCase() + string.slice(1)
-}
-
-function getInput(firstLetter) {
-    return firstLetter
 }
 
 function getNames(lowLetter) {
